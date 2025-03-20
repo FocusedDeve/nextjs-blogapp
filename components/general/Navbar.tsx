@@ -14,7 +14,10 @@ export async function Navbar() {
                 Blog<span className="text-blue-500">EkkoC4</span>
             </h1>
 
-            <div>Home</div>
+            <div>
+            <Link href="/">Home</Link>
+
+            </div>
             <div>
                 <Link href="/dashboard">Dashboard</Link>
             </div>
